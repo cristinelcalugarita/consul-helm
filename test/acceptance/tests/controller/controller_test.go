@@ -39,7 +39,7 @@ func TestController(t *testing.T) {
 				"controller.enabled":    "true",
 				"connectInject.enabled": "true",
 				"global.image":          "consul:1.9.0-beta1",
-				"global.imageK8S":       "ghcr.io/lkysow/consul-k8s-dev:oct14-ns",
+				"global.imageK8S":       "ashwinvenkatesh/consul-k8s@sha256:2225cf62ea3c068e870ad0134dac50e4753cbcf7a1503d3d6d2d897e9fc78aa1",
 
 				"global.tls.enabled":           strconv.FormatBool(c.secure),
 				"global.tls.enableAutoEncrypt": strconv.FormatBool(c.autoEncrypt),
